@@ -64,5 +64,153 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-veezee-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://veezee.io/
+LinkedIn, Reddit, and X (formerly Twitter) data for AI agents: people search, profile enrichment, discussion search, and recency sweeps over MCP or REST. No signup: your agent mints its own free key in one call.
+
+**Areas:** AI · Data · Enrichment · SocialMedia · Search
+
+## veezee-io on APIs.io
+
+Everything profiled for veezee-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/veezee-io/](https://apis.io/providers/veezee-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [veezee-io Checkout API](https://apis.io/apis/veezee-io/veezee-io-checkout-api/) — The Checkout API from veezee-io — 1 operation(s) for checkout.
+- [veezee-io Claim API](https://apis.io/apis/veezee-io/veezee-io-claim-api/) — The Claim API from veezee-io — 1 operation(s) for claim.
+- [veezee-io Keys API](https://apis.io/apis/veezee-io/veezee-io-keys-api/) — The Keys API from veezee-io — 1 operation(s) for keys.
+- [veezee-io Portal API](https://apis.io/apis/veezee-io/veezee-io-portal-api/) — The Portal API from veezee-io — 1 operation(s) for portal.
+- [veezee-io Recover API](https://apis.io/apis/veezee-io/veezee-io-recover-api/) — The Recover API from veezee-io — 1 operation(s) for recover.
+- [veezee-io Reddit API](https://apis.io/apis/veezee-io/veezee-io-reddit-api/) — The Reddit API from veezee-io — 6 operation(s) for reddit.
+- [veezee-io Rekey API](https://apis.io/apis/veezee-io/veezee-io-rekey-api/) — The Rekey API from veezee-io — 1 operation(s) for rekey.
+- [veezee-io Usage API](https://apis.io/apis/veezee-io/veezee-io-usage-api/) — The Usage API from veezee-io — 1 operation(s) for usage.
+- [veezee-io X API](https://apis.io/apis/veezee-io/veezee-io-x-api/) — The X API from veezee-io — 5 operation(s) for x.
+- [veezee-io Linked In API](https://apis.io/apis/veezee-io/veezee-io-linked-in-api/) — The Linked In API from veezee-io — 5 operation(s) for linked in.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Veezee Io Agentic Access](https://apis.io/agentic-access/veezee-io/veezee-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [person_envelope](https://apis.io/schemas/veezee-io/veezee-io-person-envelope/)
+- [reddit_search_envelope](https://apis.io/schemas/veezee-io/veezee-io-reddit-search-envelope/)
+- [reddit_thread_envelope](https://apis.io/schemas/veezee-io/veezee-io-reddit-thread-envelope/)
+- [reddit_user_envelope](https://apis.io/schemas/veezee-io/veezee-io-reddit-user-envelope/)
+- [x_search_envelope](https://apis.io/schemas/veezee-io/veezee-io-x-search-envelope/)
+- [x_tweet_envelope](https://apis.io/schemas/veezee-io/veezee-io-x-tweet-envelope/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Veezee Io Context](https://apis.io/jsonld/veezee-io/veezee-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [veezee-io API Rules](https://apis.io/rules/veezee-io/veezee-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Veezee Io Authentication](https://apis.io/security/veezee-io/veezee-io-authentication/)
+- [Veezee Io Domain Security](https://apis.io/security/veezee-io/veezee-io-domain-security/)
+- [Veezee Io Vulnerability Disclosure](https://apis.io/security/veezee-io/veezee-io-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Veezee Io Scopes](https://apis.io/scopes/veezee-io/veezee-io-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Veezee Io Plans Pricing](https://apis.io/plans/veezee-io/veezee-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Veezee Io Rate Limits](https://apis.io/rate-limits/veezee-io/veezee-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://veezee.io/)
+- [Documentation](https://veezee.io/docs)
+- [Getting started](https://veezee.io/#quickstart)
+- [API reference](https://veezee.io/openapi.json)
+- [Pricing](https://veezee.io/pricing)
+- [Changelog](https://veezee.io/changelog)
+- [Trust centre](https://veezee.io/trust)
+- [Terms of service](https://veezee.io/terms)
+- [Privacy policy](https://veezee.io/privacy)
+- [GitHub](https://github.com/veezeehq)
+- [Status](https://veezee.io/status)
+
+## API Evangelist rating
+
+**Kin Score 71.8** — exemplar · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 61.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 66.3 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 67.9 |
+
+**Agent readiness 65.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 41.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/veezee-io/](https://apis.io/providers/veezee-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for veezee-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/veezee-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
